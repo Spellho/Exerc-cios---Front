@@ -1,0 +1,72 @@
+body {
+    height: 100vh;
+    margin: 0 auto;
+    background-color: rgb(21, 142, 255);
+    background-image: linear-gradient(150deg, rgb(21, 142, 255), rgb(174, 9, 250));
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: white;
+    border-radius: 30px;
+    height: 800px;
+    width: 500px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.login {
+    font-size: 270%;
+    margin-top: 80px;
+}
+
+input {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-size: 140%;
+    width: 430px;
+    border-width: 4px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+    margin-bottom: 80px;
+    outline: 0;
+    box-sizing: border-box;
+}
+input:focus {
+    border-bottom-color: rgb(174, 9, 250);
+}
+
+.btn {
+    color: white;
+    background-color: rgb(21, 142, 255);
+    background-image: linear-gradient(150deg, rgb(21, 142, 255), rgb(174, 9, 250));
+    font-size: 150%;
+    width: 430px;
+    border: 0;
+    padding: 25px;
+    transition: background-image 0.3 ease;
+    margin-bottom: 50px;
+}
+.btn:hover {   
+    background-image: linear-gradient(30deg, rgb(174, 9, 250), rgb(21, 142, 255));
+}
+
+.forgot, .signup {
+    color: gray;
+}
+
+a {
+    text-decoration: 0;
+    color: #2076d8;
+}
